@@ -1,0 +1,15 @@
+# dataset
+dataset/
+
+# python cache
+__pycache__/
+*.pyc
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+
+# mac system file
+.DS_Store
+
+# old model format
+Trained_Model.h5
