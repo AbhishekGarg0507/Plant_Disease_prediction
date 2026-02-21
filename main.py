@@ -48,7 +48,7 @@ class_name = ['Apple___Apple_scab',
 
 # tenserflow model prediction
 def model_prediction(test_image):
-    model = tf.keras.models.load_model('Trained_Model.keras')
+    model = tf.keras.models.load_model('trained_model.keras')
     image = tf.keras.preprocessing.image.load_img(test_image, target_size=(128,128))
     input_array = tf.keras.preprocessing.image.img_to_array(image)
     # converting image to batch
