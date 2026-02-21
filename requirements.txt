@@ -6,4 +6,12 @@ numpy==1.26.4
 matplotlib==3.7.2
 seaborn==0.13.0
 pandas==2.1.0
-streamlit==1.31.1
+
+streamlit==1.40.0
+#streamlit==1.31.1
+
+# Visualization
+plotly==5.18.0
+
+# Scientific
+scipy==1.11.3
